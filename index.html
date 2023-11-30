@@ -1,1601 +1,1813 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta content="width=device-width, initial-scale=1.0" name="viewport">
-		<meta name="keywords" content="Grafické práce, Graphics, 2D Grafika, 3D Modely, Textury, Letáky, Fotografování, Foto, Svatby, Portréty, Teplice, Česká Republika">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-		<meta name="description" content="Specializuji se na grafické práce, poutavé tiskoviny a webové bannery. Tvořím 3D modely na zakázku podle předloh pro video-hry nebo video-snímky. Nabízím fotografování akcí a svateb." />
-		<meta name="author" content="Jan Kejř"/>
-		
-		<meta property="og:title" content="Jan Kejř | Grafické práce & foto-služby">
-		<meta property="og:description" content="Návrh a tvorba poutavé grafiky, 3D modelů dle předlohy a fotografování akcí nebo svateb.">
-		<meta property="og:image" content="https://jankejr.cz/Assets/img/Backgrounds/url.jpg">
-		<meta property="og:url" content="https://jankejr.cz/">
-		
-		<title>Jan Kejř | Grafické práce & foto-služby</title>
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js" integrity="sha512-jNDtFf7qgU0eH/+Z42FG4fw3w7DM/9zbgNPe3wfJlCylVDTT3IgKW5r92Vy9IHa6U50vyMz5gRByIu4YIXFtaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="keywords"
+        content="Grafické práce, Graphics, 2D Grafika, 3D Modely, Textury, Letáky, Fotografování, Foto, Svatby, Portréty, Teplice, Česká Republika">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description"
+        content="Specializuji se na grafické práce, poutavé tiskoviny a webové bannery. Tvořím 3D modely na zakázku podle předloh pro video-hry nebo video-snímky. Nabízím fotografování akcí a svateb." />
+    <meta name="author" content="Jan Kejř" />
 
-		<!-- Favicons -->
-		<link rel="icon" type="image/x-icon" href="Favicon.ico" />
-		
-		 <!-- Font Awesome icons -->
-        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
-		
-        <!-- Google fonts-->
+    <meta property="og:title" content="Jan Kejř | Grafické práce & foto-služby">
+    <meta property="og:description"
+        content="Návrh a tvorba poutavé grafiky, 3D modelů dle předlohy a fotografování akcí nebo svateb.">
+    <meta property="og:image" content="https://jankejr.cz/Assets/img/Backgrounds/url.jpg">
+    <meta property="og:url" content="https://jankejr.cz/">
 
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-		
-	
-		<!-- Vendor CSS Files -->
-		<link href="Assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-		<link href="Assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-		<link href="Assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-		<link href="Assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-		<link href="Assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-		<link href="Assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"> 
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-		
-		<link href="Assets/vendor/aos/aos.css" rel="stylesheet">
-		
-		<!-- Template Main CSS File -->
-		<link href="Assets/css/styles.css" rel="stylesheet">
+    <title>Jan Kejř | Grafické práce & foto-služby</title>
 
-		
-	</head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"
+        integrity="sha512-jNDtFf7qgU0eH/+Z42FG4fw3w7DM/9zbgNPe3wfJlCylVDTT3IgKW5r92Vy9IHa6U50vyMz5gRByIu4YIXFtaQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
 
-	<body>
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="Favicon.ico" />
 
-	<!-- ======= Hlavička ======= -->
-  <header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center justify-content-between">
+    <!-- Font Awesome icons -->
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css"
+        integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
 
-      <a class="logo scrollto" href="#domu"><img src="Assets/img/Logos/Logo-W.png" class="img-fluid"></a>
+    <!-- Google fonts-->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
 
-      <nav id="navbar" class="navbar">
-        <ul class="nav-menu">
-          <li><a class="nav-link scrollto active" href="#omne">O MNĚ</a></li>
-		  <li><a class="nav-link scrollto" href="#projekty">PROJEKTY</a></li>
-		  <li><a class="nav-link scrollto" href="#sluzby">DOVEDNOSTI</a></li>
-		  <li><a class="nav-link scrollto" href="#portfolio">PORTFOLIO</a></li>
-		  <li id="hideLi"><a class="nav-link scrollto" href="#prohlidka">PROHLÍDKA</a></li>
-		  <li><a class="nav-link scrollto" href="#video">VIDEO</a></li>
-		  <li><a class="nav-link scrollto" href="#kontakt">KONTAKT</a></li>
-        </ul>
-		
-		<div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
+
+    <!-- Vendor CSS Files -->
+    <link href="Assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="Assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="Assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="Assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="Assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="Assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link href="Assets/vendor/aos/aos.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="Assets/css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- ======= Hlavička ======= -->
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center justify-content-between">
+
+            <a class="logo scrollto" href="#domu"><img src="Assets/img/Logos/Logo-W.png" class="img-fluid"></a>
+
+            <nav id="navbar" class="navbar">
+                <ul class="nav-menu">
+                    <li><a class="nav-link scrollto active" href="#omne">O MNĚ</a></li>
+                    <li><a class="nav-link scrollto" href="#projekty">PROJEKTY</a></li>
+                    <li><a class="nav-link scrollto" href="#sluzby">DOVEDNOSTI</a></li>
+                    <li><a class="nav-link scrollto" href="#portfolio">PORTFOLIO</a></li>
+                    <li id="hideLi"><a class="nav-link scrollto" href="#prohlidka">PROHLÍDKA</a></li>
+                    <li><a class="nav-link scrollto" href="#video">VIDEO</a></li>
+                    <li><a class="nav-link scrollto" href="#kontakt">KONTAKT</a></li>
+                </ul>
+
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
         </div>
-      </nav>
-    </div>
-  </header>
-  <!-- Konec Hlavička sekce-->
+    </header>
+    <!-- Konec Hlavička sekce-->
 
-	<!-- ======= Domů ======= -->
-		<section id="domu" class="d-flex flex-column justify-content-center" data-aos="fade-in">
-			<div class="container" data-aos="fade-down"  data-aos-duration="1000" data-aos-easing="ease-in-sine">
-			<h1>Jan <b> Kejř</b></h1>
-				<div class="social-links">
-					<a href="https://www.facebook.com/jankejr.cz" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a>
-					<a href="https://www.instagram.com/_jankejr_/" target="_blank" class="instagram"><i class="bi bi-instagram"></i></a>
-					<a href="https://www.linkedin.com/in/jan-kejr/" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
-					<a href="https://www.artstation.com/kejrak" target="_blank" class="artstation"><i class="fab fa-artstation"></i></a>
-					<a href="https://www.behance.net/jankejr" target="_blank" class="behance"><i class="fab fa-behance"></i></a>
-				</div>
-				<div class="ScrollingIcon">
-				<a href="#omne" class="btn-scroll scrollto" title="O mně"><i class="bx bx-chevron-down"></i></a>
-				</div>
-			</div>
-		</section>
-	<!-- Konec Domů sekce -->
-	
-	<!-- ======= O mně ======= -->
-	<section id="omne" class="d-flex flex-column justify-content-center">
-			<div class="AboutMe">
-				<div class="container">
-				 <h1><b>Ahoj</b>, jsem Honza,</h1>
-					</div>
-					<div class="container">
-					<p>kluk z Ústeckého kraje. Od mala jsem inklinoval k technologiím a počátkem roku <b>2012</b> jsem
-					se začal amatérsky věnovat digitální grafice. <b>O rok později </b> jsem do svého pole  
-					působnosti přidal i natáčení videí a fotografování. V <b> srpnu 2018 </b> jsem se    
-					naplno pustil do 3D modelování a rozšířil si obzory o renderovací programy  
-					jako Unreal Engine nebo Maya Arnold. V <b>březnu 2021</b> jsem do toho práskl a 
-					začal jsem své služby nabízet na profesionální úrovni.</p>						
-				</div>
-			</div>
-			<div class="container">
-			 <div class="offers">
-				<div class="container">
-				<h3>Co můžete od spolupráce očekávat?</h3>
-					<div class="row justify-content-center">
-					<div class="col-lg-4 col-md-6">
-						<div class="icon-box">
-						<div class="icon"><i class="bi bi-alarm"></i></div>
-						<h4 class="title">SPOLEHLIVOST</h4>
-						<p class="description">Zakládám si na spolehlivosti doručit zakázku co možná nejdříve a s maximální kvalitou.</p>
-						</div>
-						</div>
-					<div class="col-lg-4 col-md-6 mt-5 mt-md-0">
-						<div class="icon-box">
-						<div class="icon"><i class="bi bi-palette2"></i></div>
-						<h4 class="title">PEČLIVOST</h4>
-						<p class="description">Součástí mé výbavy je pečlivost, lehký perfekcionismus a chuť se neustále posouvat.</p>
-						</div>
-					</div>
-			
-					<div class="col-lg-4 col-md-6 mt-5 mt-lg-0 ">
-						<div class="icon-box">
-						<div class="icon"><i class="bi bi-currency-dollar"></i></div>
-						<h4 class="title">CENOVÁ DOSTUPNOST</h4>
-						<p class="description">Každá zakázka je jiná. U mě se však dočkáte cen,
-						které budou vyhovovat jak Vám tak i mně.</p>
-						</div>
-					</div>
-					</div>
-				</div>
-			 </div>
-			</div>
-		</section>
-	<!-- Konec o mně sekce -->
-	
-	<!-- ======= Projekty ======= -->
-	<section id="projekty">
-	 <div class="VikingFeast">
-		<div class="container" data-aos="fade-left" data-aos-delay="50">
-		
-			<div class="row">
-			
-			<div class="column left">
-			
-			<div class="VikingFeast-info">
-			<h3>Viking Feast</h3>
-			<h4>Balíček rekvizit</h4>
-			<p> Koncem <b>března roku 2021</b> jsem vydal svůj první 3D balíček pro Unreal Engine 4. Balíček se skládá ze 3D modelů jídla nebo vybavení s vikingskou tématikou.</p>
-			<p> Balíček si můžete prohlédnout na mém profilu na stránce <b> ArtStation</b>, nebo si jej můžete rovnou pořidit na <b>Unreal Engine Marketplace</b>.</p>
-			<p> Budu moc rád, když na stránce zanecháte <b>hodnocení</b> a <b>Váš názor</b>.</p>
-			<a class="VikingFeast-btn align-middle" href="https://kejrak.artstation.com/projects/Kr5eB9" target="_blank"><i class="bi bi-eye"></i> PROHLÉDNOUT</a><a class="VikingFeast-btn align-middle" href="https://www.unrealengine.com/marketplace/en-US/product/c4ffcb7d0dde401c84567eda364a2aee" target="_blank"><i class="bi bi-basket"></i> KOUPIT</a>
-			</div>
-			<div class="Logo">
-			<img class="lazy" src="Assets/img/Projects/UnrealLogo.svg">
-			</div>
-			</div>
-			
-			<div class="column right">
-			
-			 <div class="portfolio-details-slider swiper-container">
-              <div class="swiper-wrapper align-items-center">
-
-                <div class="swiper-slide">
-                  <img class="lazy" src="Assets/img/Projects/VikingFeast/VF01.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img class="lazy" src="Assets/img/Projects/VikingFeast/VF02.jpg" alt="" >
-                </div>
-
-                <div class="swiper-slide">
-                  <img class="lazy" src="Assets/img/Projects/VikingFeast/VF03.jpg" alt="" >
-                </div>
-				
-				<div class="swiper-slide">
-                  <img class="lazy" src="Assets/img/Projects/VikingFeast/VF04.jpg" alt="">
-                </div>
-				
-				<div class="swiper-slide">
-                  <img class="lazy" src="Assets/img/Projects/VikingFeast/VF05.jpg" alt="">
-                </div>
-
-              </div>
-              <div class="swiper-pagination"></div>
-			</div>
+    <!-- ======= Domů ======= -->
+    <section id="domu" class="d-flex flex-column justify-content-center" data-aos="fade-in">
+        <div class="container" data-aos="fade-down" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+            <h1>Jan <b> Kejř</b></h1>
+            <div class="social-links">
+                <a href="https://www.facebook.com/jankejr.cz" target="_blank" class="facebook"><i
+                        class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/_jankejr_/" target="_blank" class="instagram"><i
+                        class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/jan-kejr/" target="_blank" class="linkedin"><i
+                        class="bi bi-linkedin"></i></a>
+                <a href="https://www.artstation.com/kejrak" target="_blank" class="artstation"><i
+                        class="fab fa-artstation"></i></a>
+                <a href="https://www.behance.net/jankejr" target="_blank" class="behance"><i
+                        class="fab fa-behance"></i></a>
             </div>
-		 </div>
-	  </div>
-    </div>
-	
-	<div class="RoadOfNoSins">
-		<div class="container" data-aos="fade-right" data-aos-delay="50">
-			<div class="row">
-			<div class="column left">
-			<div class="portfolio-details-slider swiper-container">
-              <div class="swiper-wrapper align-items-center">
-
-                <div class="swiper-slide">
-                  <img class="lazy" src="Assets/img/Projects/RoadOfNoSins/RONS01.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img class="lazy" src="Assets/img/Projects/RoadOfNoSins/RONS02.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img class="lazy" src="Assets/img/Projects/RoadOfNoSins/RONS03.jpg" alt="">
-                </div>
-              </div>
-              <div class="swiper-pagination"></div>
+            <div class="ScrollingIcon">
+                <a href="#omne" class="btn-scroll scrollto" title="O mně"><i class="bx bx-chevron-down"></i></a>
             </div>
-			</div>
-			
-			<div class="column right">
-			
-			<div class="RoadOfNoSins-info">
-			<h3>Road Of No Sins</h3>
-			<h4>3D Krajina</h4>
-			<p> <b>Road Of No Sins</b> je můj jeden z prvních větších projektů, na kterém jsem pracoval ve volném čase. Celý nápad na tuto <b>3D krajinu</b> vzešel z jednoho uměleckého díla, které jsem viděl na internetu.</p>
-			<p> Budu moc rád, když na stránce zanecháte <b>hodnocení</b> a <b>Váš názor</b>.</p>
-				<a class="RoadOfNoSins-btn align-middle" href="https://kejrak.artstation.com/projects/8eRRDE" target="_blank"><i class="bi bi-eye"></i> PROHLÉDNOUT</a>
-			</div>
-			<div class="Logo">
-			<img class="lazy" src="Assets/img/Projects/UnrealLogo.svg">
-			</div>
-			</div>
-			</div>
-		</div>
-	  </div>
+        </div>
+    </section>
+    <!-- Konec Domů sekce -->
 
-	  <div class="BackroomsLobby">
-		<div class="container" data-aos="fade-left" data-aos-delay="50">
-		
-			<div class="row">
-			
-			<div class="column left">
-			
-			<div class="BackroomsLobby-info">
-			<h3>The Backrooms - Level 0</h3>
-			<h4>Balíček prostředí a rekvizit</h4>
-			<p> Před nedávnem  jsem vydal svůj druhý 3D balíček pro Unreal Engine 4 a Unreal Engine 5. Inspiroval jsem se velmi známou creepypastou <b>"The Backrooms"</b>, na které jsem i tento balíček postavil.</p>
-			<p> Balíček si můžete prohlédnout na mém profilu na stránce <b> ArtStation</b>, nebo si jej můžete rovnou pořidit na <b>Unreal Engine Marketplace</b>.</p>
-			<p> Budu moc rád, když na stránce zanecháte <b>hodnocení</b> a <b>Váš názor</b>.</p>
-			<a class="BackroomsLobby-btn align-middle" href="https://kejrak.artstation.com/projects/eJ5lXJ" target="_blank"><i class="bi bi-eye"></i> PROHLÉDNOUT</a><a class="BackroomsLobby-btn align-middle" href="https://www.unrealengine.com/marketplace/en-US/product/the-backrooms-level-0-the-lobby" target="_blank"><i class="bi bi-basket"></i> KOUPIT</a>
-			</div>
-			<div class="Logo">
-			<img class="lazy" src="Assets/img/Projects/UnrealLogo.svg">
-			</div>
-			</div>
-			
-			<div class="column right">
-			
-			 <div class="portfolio-details-slider swiper-container">
-              <div class="swiper-wrapper align-items-center">
-
-                <div class="swiper-slide">
-                  <img class="lazy" src="Assets/img/Projects/BackroomsTheLobby/BCKLB01.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img class="lazy" src="Assets/img/Projects/BackroomsTheLobby/BCKLB02.jpg" alt="" >
-                </div>
-
-                <div class="swiper-slide">
-                  <img class="lazy" src="Assets/img/Projects/BackroomsTheLobby/BCKLB03.jpg" alt="" >
-                </div>
-				
-				<div class="swiper-slide">
-                  <img class="lazy" src="Assets/img/Projects/BackroomsTheLobby/BCKLB04.jpg" alt="">
-                </div>
-
-              </div>
-              <div class="swiper-pagination"></div>
-			</div>
+    <!-- ======= O mně ======= -->
+    <section id="omne" class="d-flex flex-column justify-content-center">
+        <div class="AboutMe">
+            <div class="container">
+                <h1><b>Ahoj</b>, jsem Honza,</h1>
             </div>
-		 </div>
-	  </div>
-    </div>
+            <div class="container">
+                <p>kluk z Ústeckého kraje. Od mala jsem inklinoval k technologiím a počátkem roku <b>2012</b> jsem
+                    se začal amatérsky věnovat digitální grafice. <b>O rok později </b> jsem do svého pole
+                    působnosti přidal i natáčení videí a fotografování. V <b> srpnu 2018 </b> jsem se
+                    naplno pustil do 3D modelování a rozšířil si obzory o renderovací programy
+                    jako Unreal Engine nebo Maya Arnold. V <b>březnu 2021</b> jsem do toho práskl a
+                    začal jsem své služby nabízet na profesionální úrovni.</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="offers">
+                <div class="container">
+                    <h3>Co můžete od spolupráce očekávat?</h3>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="icon-box">
+                                <div class="icon"><i class="bi bi-alarm"></i></div>
+                                <h4 class="title">SPOLEHLIVOST</h4>
+                                <p class="description">Zakládám si na spolehlivosti doručit zakázku co možná nejdříve a
+                                    s maximální kvalitou.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
+                            <div class="icon-box">
+                                <div class="icon"><i class="bi bi-palette2"></i></div>
+                                <h4 class="title">PEČLIVOST</h4>
+                                <p class="description">Součástí mé výbavy je pečlivost, lehký perfekcionismus a chuť se
+                                    neustále posouvat.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 mt-5 mt-lg-0 ">
+                            <div class="icon-box">
+                                <div class="icon"><i class="bi bi-currency-dollar"></i></div>
+                                <h4 class="title">CENOVÁ DOSTUPNOST</h4>
+                                <p class="description">Každá zakázka je jiná. U mě se však dočkáte cen,
+                                    které budou vyhovovat jak Vám tak i mně.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Konec o mně sekce -->
+
+    <!-- ======= Projekty ======= -->
+    <section id="projekty">
+        <div class="VikingFeast">
+            <div class="container" data-aos="fade-left" data-aos-delay="50">
+
+                <div class="row">
+
+                    <div class="column left">
+
+                        <div class="VikingFeast-info">
+                            <h3>Viking Feast</h3>
+                            <h4>Balíček rekvizit</h4>
+                            <p> Koncem <b>března roku 2021</b> jsem vydal svůj první 3D balíček pro Unreal Engine 4.
+                                Balíček se skládá ze 3D modelů jídla nebo vybavení s vikingskou tématikou.</p>
+                            <p> Balíček si můžete prohlédnout na mém profilu na stránce <b> ArtStation</b>, nebo si jej
+                                můžete rovnou pořidit na <b>Unreal Engine Marketplace</b>.</p>
+                            <p> Budu moc rád, když na stránce zanecháte <b>hodnocení</b> a <b>Váš názor</b>.</p>
+                            <a class="VikingFeast-btn align-middle" href="https://kejrak.artstation.com/projects/Kr5eB9"
+                                target="_blank"><i class="bi bi-eye"></i> PROHLÉDNOUT</a><a
+                                class="VikingFeast-btn align-middle"
+                                href="https://www.unrealengine.com/marketplace/en-US/product/c4ffcb7d0dde401c84567eda364a2aee"
+                                target="_blank"><i class="bi bi-basket"></i> KOUPIT</a>
+                        </div>
+                        <div class="Logo">
+                            <img class="lazy" src="Assets/img/Projects/UnrealLogo.svg">
+                        </div>
+                    </div>
+
+                    <div class="column right">
+
+                        <div class="portfolio-details-slider swiper-container">
+                            <div class="swiper-wrapper align-items-center">
+
+                                <div class="swiper-slide">
+                                    <img class="lazy" src="Assets/img/Projects/VikingFeast/VF01.jpg" alt="">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img class="lazy" src="Assets/img/Projects/VikingFeast/VF02.jpg" alt="">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img class="lazy" src="Assets/img/Projects/VikingFeast/VF03.jpg" alt="">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img class="lazy" src="Assets/img/Projects/VikingFeast/VF04.jpg" alt="">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img class="lazy" src="Assets/img/Projects/VikingFeast/VF05.jpg" alt="">
+                                </div>
+
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="RoadOfNoSins">
+            <div class="container" data-aos="fade-right" data-aos-delay="50">
+                <div class="row">
+                    <div class="column left">
+                        <div class="portfolio-details-slider swiper-container">
+                            <div class="swiper-wrapper align-items-center">
+
+                                <div class="swiper-slide">
+                                    <img class="lazy" src="Assets/img/Projects/RoadOfNoSins/RONS01.jpg" alt="">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img class="lazy" src="Assets/img/Projects/RoadOfNoSins/RONS02.jpg" alt="">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img class="lazy" src="Assets/img/Projects/RoadOfNoSins/RONS03.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+
+                    <div class="column right">
+
+                        <div class="RoadOfNoSins-info">
+                            <h3>Road Of No Sins</h3>
+                            <h4>3D Krajina</h4>
+                            <p> <b>Road Of No Sins</b> je můj jeden z prvních větších projektů, na kterém jsem pracoval
+                                ve volném čase. Celý nápad na tuto <b>3D krajinu</b> vzešel z jednoho uměleckého díla,
+                                které jsem viděl na internetu.</p>
+                            <p> Budu moc rád, když na stránce zanecháte <b>hodnocení</b> a <b>Váš názor</b>.</p>
+                            <a class="RoadOfNoSins-btn align-middle"
+                                href="https://kejrak.artstation.com/projects/8eRRDE" target="_blank"><i
+                                    class="bi bi-eye"></i> PROHLÉDNOUT</a>
+                        </div>
+                        <div class="Logo">
+                            <img class="lazy" src="Assets/img/Projects/UnrealLogo.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="BackroomsLobby">
+            <div class="container" data-aos="fade-left" data-aos-delay="50">
+
+                <div class="row">
+
+                    <div class="column left">
+
+                        <div class="BackroomsLobby-info">
+                            <h3>The Backrooms - Level 0</h3>
+                            <h4>Balíček prostředí a rekvizit</h4>
+                            <p> Před nedávnem jsem vydal svůj druhý 3D balíček pro Unreal Engine 4 a Unreal Engine 5.
+                                Inspiroval jsem se velmi známou creepypastou <b>"The Backrooms"</b>, na které jsem i
+                                tento balíček postavil.</p>
+                            <p> Balíček si můžete prohlédnout na mém profilu na stránce <b> ArtStation</b>, nebo si jej
+                                můžete rovnou pořidit na <b>Unreal Engine Marketplace</b>.</p>
+                            <p> Budu moc rád, když na stránce zanecháte <b>hodnocení</b> a <b>Váš názor</b>.</p>
+                            <a class="BackroomsLobby-btn align-middle"
+                                href="https://kejrak.artstation.com/projects/eJ5lXJ" target="_blank"><i
+                                    class="bi bi-eye"></i> PROHLÉDNOUT</a><a class="BackroomsLobby-btn align-middle"
+                                href="https://www.unrealengine.com/marketplace/en-US/product/the-backrooms-level-0-the-lobby"
+                                target="_blank"><i class="bi bi-basket"></i> KOUPIT</a>
+                        </div>
+                        <div class="Logo">
+                            <img class="lazy" src="Assets/img/Projects/UnrealLogo.svg">
+                        </div>
+                    </div>
+
+                    <div class="column right">
+
+                        <div class="portfolio-details-slider swiper-container">
+                            <div class="swiper-wrapper align-items-center">
+
+                                <div class="swiper-slide">
+                                    <img class="lazy" src="Assets/img/Projects/BackroomsTheLobby/BCKLB01.jpg" alt="">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img class="lazy" src="Assets/img/Projects/BackroomsTheLobby/BCKLB02.jpg" alt="">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img class="lazy" src="Assets/img/Projects/BackroomsTheLobby/BCKLB03.jpg" alt="">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img class="lazy" src="Assets/img/Projects/BackroomsTheLobby/BCKLB04.jpg" alt="">
+                                </div>
+
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </section>
-	
-	<section class="slideshow">
-		<div class="slideshow-inner">
-		  <div class="slides">
-			<div class="slide is-active ">
-			  <div class="slide-content">
-				<div class="caption">
-				  <div class="title">Futured</div>
-				  <div class="text">
-					<p>4K WALLPAPER</p>
-				  </div> 
-				  <a href="Assets\img\Downloadable\JanKejr-Futured-4K.png" class="btn_slider">
-					<span class="btn-inner">Stáhnout</span>
-				  </a>
-				</div>
-			  </div>
-			  <div class="image-container futured"> 
-			  </div>
-			</div>
-		  </div>
-		  <div class="slider-pagination">
-			<div class="item is-active"> 
-			  <span class="icon">1</span>
-			</div>
-		  </div>
-		  <div class="arrows">
-			<div class="arrow prev">
-			  <span class="svg svg-arrow-left">
-				<svg version="1.1" id="svg4-Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="14px" height="26px" viewBox="0 0 14 26" enable-background="new 0 0 14 26" xml:space="preserve"> <path d="M13,26c-0.256,0-0.512-0.098-0.707-0.293l-12-12c-0.391-0.391-0.391-1.023,0-1.414l12-12c0.391-0.391,1.023-0.391,1.414,0s0.391,1.023,0,1.414L2.414,13l11.293,11.293c0.391,0.391,0.391,1.023,0,1.414C13.512,25.902,13.256,26,13,26z"/> </svg>
-				<span class="alt sr-only"></span>
-			  </span>
-			</div>
-			<div class="arrow next">
-			  <span class="svg svg-arrow-right">
-				<svg version="1.1" id="svg5-Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="14px" height="26px" viewBox="0 0 14 26" enable-background="new 0 0 14 26" xml:space="preserve"> <path d="M1,0c0.256,0,0.512,0.098,0.707,0.293l12,12c0.391,0.391,0.391,1.023,0,1.414l-12,12c-0.391,0.391-1.023,0.391-1.414,0s-0.391-1.023,0-1.414L11.586,13L0.293,1.707c-0.391-0.391-0.391-1.023,0-1.414C0.488,0.098,0.744,0,1,0z"/> </svg>
-				<span class="alt sr-only"></span>
-			  </span>
-			</div>
-		  </div>
-		</div> 
-	  </section>
 
-	
-	<!-- Konec projektové sekce -->
-		
-	<!-- ======= Služby ======= -->
+    <section class="slideshow">
+        <div class="slideshow-inner">
+            <div class="slides">
+                <div class="slide is-active ">
+                    <div class="slide-content">
+                        <div class="caption">
+                            <div class="title">Futured</div>
+                            <div class="text">
+                                <p>4K WALLPAPER</p>
+                            </div>
+                            <a href="Assets\img\Downloadable\JanKejr-Futured-4K.png" class="btn_slider">
+                                <span class="btn-inner">Stáhnout</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="image-container futured">
+                    </div>
+                </div>
+            </div>
+            <div class="slider-pagination">
+                <div class="item is-active">
+                    <span class="icon">1</span>
+                </div>
+            </div>
+            <div class="arrows">
+                <div class="arrow prev">
+                    <span class="svg svg-arrow-left">
+                        <svg version="1.1" id="svg4-Layer_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="14px" height="26px"
+                            viewBox="0 0 14 26" enable-background="new 0 0 14 26" xml:space="preserve">
+                            <path
+                                d="M13,26c-0.256,0-0.512-0.098-0.707-0.293l-12-12c-0.391-0.391-0.391-1.023,0-1.414l12-12c0.391-0.391,1.023-0.391,1.414,0s0.391,1.023,0,1.414L2.414,13l11.293,11.293c0.391,0.391,0.391,1.023,0,1.414C13.512,25.902,13.256,26,13,26z" />
+                        </svg>
+                        <span class="alt sr-only"></span>
+                    </span>
+                </div>
+                <div class="arrow next">
+                    <span class="svg svg-arrow-right">
+                        <svg version="1.1" id="svg5-Layer_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="14px" height="26px"
+                            viewBox="0 0 14 26" enable-background="new 0 0 14 26" xml:space="preserve">
+                            <path
+                                d="M1,0c0.256,0,0.512,0.098,0.707,0.293l12,12c0.391,0.391,0.391,1.023,0,1.414l-12,12c-0.391,0.391-1.023,0.391-1.414,0s-0.391-1.023,0-1.414L11.586,13L0.293,1.707c-0.391-0.391-0.391-1.023,0-1.414C0.488,0.098,0.744,0,1,0z" />
+                        </svg>
+                        <span class="alt sr-only"></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Konec projektové sekce -->
+
+    <!-- ======= Služby ======= -->
     <section id="sluzby" class="services">
-		<div class="container">
-			<div  class="section-title">
-			<h2>Dovednosti</h2>
-			<p>Co mohu nabídnout</p>
-			<h3>S pečlivostí a citem pro detail</h3>
-			</div>
-	
-			<div class="row gy-4">
-	
-				
-				<div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-					<div class="icon-box">
-					  <div class="icon">
-					  	<img height="100" width="100" src="Assets/img/Services/Graphics-BL.svg">
-					  </div>
-					  <div class="service-text">
-					  <h4>Grafika na míru</h4>
-					  <p>Potřebujete pro svoje podnikaní vytvořit poutavou <b>tištěnou grafiku</b>? Co takhle <b>sadu grafických prvků</b> na Váš web nebo do Vaší aplikace?<br />
-					  <br />Jste na správném místě! Vaši vizi hravě <b>přetvořím</b> do reálné podoby tak, jak budete potřebovat.</p>
-					  </div>
-					</div>
-				</div>
+        <div class="container">
+            <div class="section-title">
+                <h2>Dovednosti</h2>
+                <p>Co mohu nabídnout</p>
+                <h3>S pečlivostí a citem pro detail</h3>
+            </div>
 
-				<div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-					<div class="icon-box">
-					  <div class="icon">
-					     <img height="100" width="100"  src="Assets/img/Services/3D-BL.svg">
-					  </div>
-					  <div class="service-text">
-					  <h4>3D Grafika</h4>
-					  <p>Pracujete na projektech, které vyžadují značnou část <b>3D obsahu</b>? Může se jednat například o <b>video-herní</b> či <b>filmové rekvizity</b>.<br />
-					  <br />Specializuji se na <i><b>Hard-Surface</b></i> modelování. Pro Vaše potřeby dokážu vytvořit Vámi specifikovaný 3D model optimalizovaný dle využití.</p>
-					</div>
-					</div>
-				</div>
+            <div class="row gy-4">
 
-				<div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-					<div class="icon-box">
-					  <div class="icon">
-						<img height="100" width="100"  src="Assets/img/Services/Logo-BL.svg">
-					  </div>
-					  <div class="service-text">
-					  <h4>Logo Design</h4>
-					  <p><b>Začínáte</b> s podnikáním nebo potřebujete <b>osvěžit</b> Vaši digitální tvář?<br />
-					  <br />Může se jednat o samotnou <b>tvorbu loga či nápaditou animaci</b>, společně vdechneme Vašemu podníkaní duši.</p>
-					</div>
-					</div>
-				</div>
 
-				<div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-					<div class="icon-box">
-					  <div class="icon">
-						<img height="100" width="100" src="Assets/img/Services/Brand-BL.svg">
-					  </div>
-					  <div class="service-text">
-					  <h4>Branding</h4>
-					  <p>Jednou z částí tvorby digitální tváře je i <b>jednotný vizuální styl</b> vašeho podnikání.<br />
-					  <br />Rád Vám pomohu s reklamou na <b>sociální sítě</b>, či vytvořením <b>návrhů triček, vizitek nebo firemních psacích potřeb.</b></p>
-					</div>
-					</div>
-				</div>
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                    <div class="icon-box">
+                        <div class="icon">
+                            <img height="100" width="100" src="Assets/img/Services/Graphics-BL.svg">
+                        </div>
+                        <div class="service-text">
+                            <h4>Grafika na míru</h4>
+                            <p>Potřebujete pro svoje podnikaní vytvořit poutavou <b>tištěnou grafiku</b>? Co takhle
+                                <b>sadu grafických prvků</b> na Váš web nebo do Vaší aplikace?<br />
+                                <br />Jste na správném místě! Vaši vizi hravě <b>přetvořím</b> do reálné podoby tak, jak
+                                budete potřebovat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
-				<div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-					<div class="icon-box">
-					  <div class="icon">
-						<img height="100" width="100"  src="Assets/img/Services/Photo-BL.svg">
-					  </div>
-					  <div class="service-text">
-					  <h4>Foto-Služby</h4>
-					  <p>Pořádáte <b>svatbu, ples, večírek</b> nebo jinou <b>akci</b>, na kterou byste nechtěli zapomenout?<br />
-					  <br />Rád vaše společné chvíle zachytím, abyste si je mohli pamatovat celý život. Využívám <b>kvalitní techniku</b> a bohaté <b>zkušenosti</b>.</p>
-					</div>
-					</div>
-				</div>
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                    <div class="icon-box">
+                        <div class="icon">
+                            <img height="100" width="100" src="Assets/img/Services/3D-BL.svg">
+                        </div>
+                        <div class="service-text">
+                            <h4>3D Grafika</h4>
+                            <p>Pracujete na projektech, které vyžadují značnou část <b>3D obsahu</b>? Může se jednat
+                                například o <b>video-herní</b> či <b>filmové rekvizity</b>.<br />
+                                <br />Specializuji se na <i><b>Hard-Surface</b></i> modelování. Pro Vaše potřeby dokážu
+                                vytvořit Vámi specifikovaný 3D model optimalizovaný dle využití.
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
-				<div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-					<div class="icon-box">
-					  <div class="icon">
-						<img height="100" width="100"  src="Assets/img/Services/4F-BL.svg">
-					  </div>
-					  <div class="service-text">
-					  <h4>Videoprodukce</h4>
-					  <p>Potřebujete <b>promo, reklamu, firemní video</b> nebo záběry z <b>akce</b>?<br />
-					  <br />Zkušený tým <b>4Filming</b> si poradí s jakýmkoliv Vaším přáním ohledně <b>video-produkce</b> nebo <b>reklamního marketingu</b>.</p>
-					</div>
-					</div>
-				</div>
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                    <div class="icon-box">
+                        <div class="icon">
+                            <img height="100" width="100" src="Assets/img/Services/Logo-BL.svg">
+                        </div>
+                        <div class="service-text">
+                            <h4>Logo Design</h4>
+                            <p><b>Začínáte</b> s podnikáním nebo potřebujete <b>osvěžit</b> Vaši digitální tvář?<br />
+                                <br />Může se jednat o samotnou <b>tvorbu loga či nápaditou animaci</b>, společně
+                                vdechneme Vašemu podníkaní duši.
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
-			</div>
-			
-		</div>
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                    <div class="icon-box">
+                        <div class="icon">
+                            <img height="100" width="100" src="Assets/img/Services/Brand-BL.svg">
+                        </div>
+                        <div class="service-text">
+                            <h4>Branding</h4>
+                            <p>Jednou z částí tvorby digitální tváře je i <b>jednotný vizuální styl</b> vašeho
+                                podnikání.<br />
+                                <br />Rád Vám pomohu s reklamou na <b>sociální sítě</b>, či vytvořením <b>návrhů triček,
+                                    vizitek nebo firemních psacích potřeb.</b>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                    <div class="icon-box">
+                        <div class="icon">
+                            <img height="100" width="100" src="Assets/img/Services/Photo-BL.svg">
+                        </div>
+                        <div class="service-text">
+                            <h4>Foto-Služby</h4>
+                            <p>Pořádáte <b>svatbu, ples, večírek</b> nebo jinou <b>akci</b>, na kterou byste nechtěli
+                                zapomenout?<br />
+                                <br />Rád vaše společné chvíle zachytím, abyste si je mohli pamatovat celý život.
+                                Využívám <b>kvalitní techniku</b> a bohaté <b>zkušenosti</b>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                    <div class="icon-box">
+                        <div class="icon">
+                            <img height="100" width="100" src="Assets/img/Services/4F-BL.svg">
+                        </div>
+                        <div class="service-text">
+                            <h4>Videoprodukce</h4>
+                            <p>Potřebujete <b>promo, reklamu, firemní video</b> nebo záběry z <b>akce</b>?<br />
+                                <br />Zkušený tým <b>4Filming</b> si poradí s jakýmkoliv Vaším přáním ohledně
+                                <b>video-produkce</b> nebo <b>reklamního marketingu</b>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
     </section>
-	<!-- Konec Služba sekce -->
-	
-	<!-- ======= Portfolio ======= -->
+    <!-- Konec Služba sekce -->
+
+    <!-- ======= Portfolio ======= -->
     <section id="portfolio" class="portfolio section-bg">
-		<div class="container">
-	
-			<div class="section-title">
-				<h2>Portfolio</h2>
-				<p>Moje práce</p>
-				<h3>Výběr toho nejlepšího</h3>
-			</div>
-	
-			<div class="row">
-				<div class="col-lg-12 d-flex justify-content-center">
-					<ul id="portfolio-flters">
-					<li data-filter=".filter-vyber" class="filter-active">Náhled</li>
-					<li data-filter=".filter-grafika">Grafika</li>
-					<li data-filter=".filter-logo">Logo Design</li>
-					<li data-filter=".filter-promofoto">Akce & Promo</li>
-					<li data-filter=".filter-portety">Potréty</li>
-					<li data-filter=".filter-svatby">Svatby</li>
-					</ul>
-				</div>
-			</div>
-		
-	  
-		<div class="row gy-4 portfolio-container">
-		  
-		<!-- ======= Náhled ======= -->
-		
-		
-			<div class="col-lg-4 col-md-6 portfolio-item filter-vyber">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Nahled/Large/Nahled01.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Nahled/Small/Nahled01.jpg" class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Neckyáda</h4>
-					<h5>Fotografie z Akce</h5>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-vyber">
-			<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Nahled/Large/Nahled02.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Nahled/Small/Nahled02.jpg" class="img-fluid" alt="">
-				<div class="portfolio-info">
-				<h4>Neckyáda</h4>
-				<h5>Fotografie z Akce</h5>
-				<div class="portfolio-links">
-				</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-vyber">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Nahled/Large/Nahled03.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy"  src="Assets/img/Portfolio/Nahled/Small/Nahled03.jpg"  class="img-fluid"  alt="">
-				<div class="portfolio-info">
-					<h4>Nikola a Tomáš</h4>
-					<h5>Svatební fotografie</h5>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-vyber">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Nahled/Large/Nahled04.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Nahled/Small/Nahled04.jpg" class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Nikola a Tomáš</h4>
-					<h5>Svatební fotografie</h5>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-vyber">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Nahled/Large/Nahled05.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Nahled/Small/Nahled05.jpg" class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Anet a Oleg</h4>
-					<h5>Svatební fotografie</h5>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-vyber">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Nahled/Large/Nahled06.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Nahled/Small/Nahled06.jpg"  class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Anet a Oleg</h4>
-					<h5>Svatební fotografie</h5>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-vyber">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Nahled/Large/Nahled07.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Nahled/Small/Nahled07.jpg"  class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>4Filming Crew</h4>
-					<h5>Promo fotografie</h5>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-vyber">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Nahled/Large/Nahled08.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Nahled/Small/Nahled08.jpg" class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>4Filming Crew</h4>
-					<h5>Promo fotografie</h5>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-vyber">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Nahled/Large/Nahled09.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Nahled/Small/Nahled09.jpg" class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Dan</h4>
-					<h5>Portrétové / Umělecké fotografie</h5>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		 
-		 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-vyber">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Nahled/Large/Nahled010.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Nahled/Small/Nahled010.jpg"  class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Igor</h4>
-					<h5>Portrétové / Umělecké fotografie</h5>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		
-		<!-- ======= Grafika ======= -->
+        <div class="container">
 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-grafika">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Grafika/Large/Prihlasky2022.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Grafika/Small/Prihlasky2022.jpg"  class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Tiskovina - Přihlášky</h4>
-					<h5>ZAKÁZKA</h5>
-					<p>Grafický návrh</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
+            <div class="section-title">
+                <h2>Portfolio</h2>
+                <p>Moje práce</p>
+                <h3>Výběr toho nejlepšího</h3>
+            </div>
 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-grafika">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Grafika/Large/SocialTemplates.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Grafika/Small/SocialTemplates.jpg"  class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Sada grafických šablon sociálních sítí</h4>
-					<h5>ZAKÁZKA</h5>
-					<p>Grafický návrh</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
+            <div class="row">
+                <div class="col-lg-12 d-flex justify-content-center">
+                    <ul id="portfolio-flters">
+                        <li data-filter=".filter-vyber" class="filter-active">Náhled</li>
+                        <li data-filter=".filter-grafika">Grafika</li>
+                        <li data-filter=".filter-logo">Logo Design</li>
+                        <li data-filter=".filter-promofoto">Akce & Promo</li>
+                        <li data-filter=".filter-portety">Potréty</li>
+                        <li data-filter=".filter-svatby">Svatby</li>
+                    </ul>
+                </div>
+            </div>
 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-grafika">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Grafika/Large/HappyBomb.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Grafika/Small/HappyBomb.jpg"  class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Videohra "Happy Bomb"</h4>
-					<h5>Školní projekt</h5>
-					<p>Grafický návrh</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-grafika">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Grafika/Large/Wedding-Flowers-01.mp4" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Grafika/Small/Wedding-Flowers-01.jpg" class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Svatební úvod</h4>
-					<h5>Video-šablona</h5>
-					<p>Grafický návrh</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
 
-		
-		<!-- ======= Logo ======= -->
-			<div class="col-lg-4 col-md-6 portfolio-item filter-logo">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Logo/Large/ReUseCentrumZabrusany.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Logo/Small/ReUseCentrumZabrusany.jpg" class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Re-Use Centrum Zabrušany</h4>
-					<h5>Zakázka</h5>
-					<p>Logo Design</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
+            <div class="row gy-4 portfolio-container">
 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-logo">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Logo/Large/KavarnaBambus.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Logo/Small/KavarnaBambus.jpg" class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Kavárna Bambus</h4>
-					<h5>Školní projekt</h5>
-					<p>Logo Design</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		 
-		<!-- ======= Branding ======= -->
-		
-		<!-- ======= Promo-Foto ======= -->
-			<div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Promo-Foto/Large/Neckyada01.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/Neckyada01.jpg" class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Neckyáda Zabrušany</h4>
-					<h5>Ročníky 2019/2020/2021</h5>
-					<p>Akce & Promo</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Promo-Foto/Large/Neckyada02.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/Neckyada02.jpg"  class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Neckyáda Zabrušany</h4>
-					<h5>Ročníky 2019/2020/2021</h5>
-					<p>Akce & Promo</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Promo-Foto/Large/Neckyada03.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/Neckyada03.jpg" class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Neckyáda Zabrušany</h4>
-					<h5>Ročníky 2019/2020/2021</h5>
-					<p>Akce & Promo</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Promo-Foto/Large/Neckyada04.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/Neckyada04.jpg" class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Neckyáda Zabrušany</h4>
-					<h5>Ročníky 2019/2020/2021</h5>
-					<p>Akce & Promo</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Promo-Foto/Large/Neckyada05.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/Neckyada05.jpg" class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Neckyáda Zabrušany</h4>
-					<h5>Ročníky 2019/2020/2021</h5>
-					<p>Akce & Promo</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Promo-Foto/Large/Neckyada06.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/Neckyada06.jpg"  class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Neckyáda Zabrušany</h4>
-					<h5>Ročníky 2019/2020/2021</h5>
-					<p>Akce & Promo</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Promo-Foto/Large/Neckyada07.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/Neckyada07.jpg" class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Neckyáda Zabrušany</h4>
-					<h5>Ročníky 2019/2020/2021</h5>
-					<p>Akce & Promo</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Promo-Foto/Large/Neckyada08.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/Neckyada08.jpg"  class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Neckyáda Zabrušany</h4>
-					<h5>Ročníky 2019/2020/2021</h5>
-					<p>Akce & Promo</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Promo-Foto/Large/Neckyada09.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/Neckyada09.jpg"  class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Neckyáda Zabrušany</h4>
-					<h5>Ročníky 2019/2020/2021</h5>
-					<p>Akce & Promo</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Promo-Foto/Large/Neckyada010.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/Neckyada010.jpg" class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Neckyáda Zabrušany</h4>
-					<h5>Ročníky 2019/2020/2021</h5>
-					<p>Akce & Promo</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Promo-Foto/Large/Neckyada011.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/Neckyada011.jpg"  class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Neckyáda Zabrušany</h4>
-					<h5>Ročníky 2019/2020/2021</h5>
-					<p>Akce & Promo</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Promo-Foto/Large/Neckyada012.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/Neckyada012.jpg"  class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Neckyáda Zabrušany</h4>
-					<h5>Ročníky 2019/2020/2021</h5>
-					<p>Akce & Promo</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Promo-Foto/Large/Neckyada013.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/Neckyada013.jpg" class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Neckyáda Zabrušany</h4>
-					<h5>Ročníky 2019/2020/2021</h5>
-					<p>Akce & Promo</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Promo-Foto/Large/Neckyada014.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/Neckyada014.jpg" class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Neckyáda Zabrušany</h4>
-					<h5>Ročníky 2019/2020/2021</h5>
-					<p>Akce & Promo</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Promo-Foto/Large/Neckyada015.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/Neckyada015.jpg" class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Neckyáda Zabrušany</h4>
-					<h5>Ročníky 2019/2020/2021</h5>
-					<p>Akce & Promo</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Promo-Foto/Large/Neckyada016.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/Neckyada016.jpg"  class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Neckyáda Zabrušany</h4>
-					<h5>Ročníky 2019/2020/2021</h5>
-					<p>Akce & Promo</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Promo-Foto/Large/Neckyada017.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/Neckyada017.jpg" class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Neckyáda Zabrušany</h4>
-					<h5>Ročníky 2019/2020/2021</h5>
-					<p>Akce & Promo</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Promo-Foto/Large/Neckyada018.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/Neckyada018.jpg" class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Neckyáda Zabrušany</h4>
-					<h5>Ročníky 2019/2020/2021</h5>
-					<p>Akce & Promo</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Promo-Foto/Large/Neckyada019.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/Neckyada019.jpg" class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Neckyáda Zabrušany</h4>
-					<h5>Ročníky 2019/2020/2021</h5>
-					<p>Akce & Promo</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Promo-Foto/Large/4FilmingUjep01.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<iimg class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/4FilmingUjep01.jpg"  class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>4Filming Crew</h4>
-					<h5>CPTO Dokument</h5>
-					<p>Akce & Promo</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Promo-Foto/Large/4FilmingUjep02.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/4FilmingUjep02.jpg"  class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>4Filming Crew</h4>
-					<h5>CPTO Dokument</h5>
-					<p>Akce & Promo</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Promo-Foto/Large/4FilmingUjep03.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/4FilmingUjep03.jpg" class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>4Filming Crew</h4>
-					<h5>CPTO Dokument</h5>
-					<p>Akce & Promo</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-			
-			<div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Promo-Foto/Large/4FilmingUjep04.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/4FilmingUjep04.jpg" class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>4Filming Crew</h4>
-					<h5>CPTO Dokument</h5>
-					<p>Akce & Promo</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Promo-Foto/Large/4FilmingUjep05.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/4FilmingUjep05.jpg"  class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>4Filming Crew</h4>
-					<h5>CPTO Dokument</h5>
-					<p>Akce & Promo</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Promo-Foto/Large/4FilmingUjep06.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/4FilmingUjep06.jpg"  class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>4Filming Crew</h4>
-					<h5>CPTO Dokument</h5>
-					<p>Akce & Promo</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Promo-Foto/Large/4FilmingUjep07.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/4FilmingUjep07.jpg" class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>4Filming Crew</h4>
-					<h5>CPTO Dokument</h5>
-					<p>Akce & Promo</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Promo-Foto/Large/4FilmingUjep08.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/4FilmingUjep08.jpg"  class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>4Filming Crew</h4>
-					<h5>CPTO Dokument</h5>
-					<p>Akce & Promo</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		 
-		<!-- ======= Potréty ======= -->
-			<div class="col-lg-4 col-md-6 portfolio-item filter-portety">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Potrety/Large/Michal01.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Potrety/Small/Michal01.jpg"  class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Michal</h4>
-					<h5>Lokace - Teplice</h5>
-					<p>Potrétová fotografie</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
+                <!-- ======= Náhled ======= -->
 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-portety">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Potrety/Large/Michal02.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Potrety/Small/Michal02.jpg"  class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Michal</h4>
-					<h5>Lokace - Teplice</h5>
-					<p>Potrétová fotografie</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		
-			<div class="col-lg-4 col-md-6 portfolio-item filter-portety">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Potrety/Large/Igor01.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Potrety/Small/Igor01.jpg"  class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Igor</h4>
-					<h5>Lokace - Praha</h5>
-					<p>Potrétová fotografie</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-portety">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Potrety/Large/Igor05.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Potrety/Small/Igor05.jpg"  class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Igor</h4>
-					<h5>Lokace - Praha</h5>
-					<p>Potrétová fotografie</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-vyber">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Nahled/Large/Nahled01.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Nahled/Small/Nahled01.jpg" class="img-fluid"
+                                alt="">
+                            <div class="portfolio-info">
+                                <h4>Neckyáda</h4>
+                                <h5>Fotografie z Akce</h5>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-portety">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Potrety/Large/Kuba01.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Potrety/Small/Kuba01.jpg" class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Kuba</h4>
-					<h5>Lokace - Jiřetín</h5>
-					<p>Potrétová fotografie</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-vyber">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Nahled/Large/Nahled02.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Nahled/Small/Nahled02.jpg" class="img-fluid"
+                                alt="">
+                            <div class="portfolio-info">
+                                <h4>Neckyáda</h4>
+                                <h5>Fotografie z Akce</h5>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-portety">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Potrety/Large/Dan01.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Potrety/Small/Dan01.jpg"  class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Dan</h4>
-					<h5>Lokace - Teplice</h5>
-					<p>Potrétová fotografie</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		  
-		<!-- ======= Svatby ======= -->
-			<div class="col-lg-4 col-md-6 portfolio-item filter-svatby">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Svatby/Large/NikolaTomas01.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Svatby/Small/NikolaTomas01.jpg"  class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Nikola a Tomáš</h4>
-					<h5>Svatba - Květen 2022</h5>
-					<p>Svatební fotografie</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-vyber">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Nahled/Large/Nahled03.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Nahled/Small/Nahled03.jpg" class="img-fluid"
+                                alt="">
+                            <div class="portfolio-info">
+                                <h4>Nikola a Tomáš</h4>
+                                <h5>Svatební fotografie</h5>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-svatby">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Svatby/Large/NikolaTomas02.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Svatby/Small/NikolaTomas02.jpg"  class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Nikola a Tomáš</h4>
-					<h5>Svatba - Květen 2022</h5>
-					<p>Svatební fotografie</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-vyber">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Nahled/Large/Nahled04.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Nahled/Small/Nahled04.jpg" class="img-fluid"
+                                alt="">
+                            <div class="portfolio-info">
+                                <h4>Nikola a Tomáš</h4>
+                                <h5>Svatební fotografie</h5>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-svatby">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Svatby/Large/NikolaTomas03.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Svatby/Small/NikolaTomas03.jpg"  class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Nikola a Tomáš</h4>
-					<h5>Svatba - Květen 2022</h5>
-					<p>Svatební fotografie</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-vyber">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Nahled/Large/Nahled05.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Nahled/Small/Nahled05.jpg" class="img-fluid"
+                                alt="">
+                            <div class="portfolio-info">
+                                <h4>Anet a Oleg</h4>
+                                <h5>Svatební fotografie</h5>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-svatby">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Svatby/Large/NikolaTomas04.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Svatby/Small/NikolaTomas04.jpg"  class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Nikola a Tomáš</h4>
-					<h5>Svatba - Květen 2022</h5>
-					<p>Svatební fotografie</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-vyber">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Nahled/Large/Nahled06.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Nahled/Small/Nahled06.jpg" class="img-fluid"
+                                alt="">
+                            <div class="portfolio-info">
+                                <h4>Anet a Oleg</h4>
+                                <h5>Svatební fotografie</h5>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-svatby">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Svatby/Large/NikolaTomas05.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Svatby/Small/NikolaTomas05.jpg"  class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Nikola a Tomáš</h4>
-					<h5>Svatba - Květen 2022</h5>
-					<p>Svatební fotografie</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-vyber">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Nahled/Large/Nahled07.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Nahled/Small/Nahled07.jpg" class="img-fluid"
+                                alt="">
+                            <div class="portfolio-info">
+                                <h4>4Filming Crew</h4>
+                                <h5>Promo fotografie</h5>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
 
-			<div class="col-lg-4 col-md-6 portfolio-item filter-svatby">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Svatby/Large/NikolaTomas06.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Svatby/Small/NikolaTomas06.jpg"  class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Nikola a Tomáš</h4>
-					<h5>Svatba - Květen 2022</h5>
-					<p>Svatební fotografie</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		
-			<div class="col-lg-4 col-md-6 portfolio-item filter-svatby">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Svatby/Large/AnetOleg01.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Svatby/Small/AnetOleg01.jpg"  class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Anet a Oleg</h4>
-					<h5>Svatba - Červen 2021</h5>
-					<p>Svatební fotografie</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		  
-			<div class="col-lg-4 col-md-6 portfolio-item filter-svatby">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Svatby/Large/AnetOleg02.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Svatby/Small/AnetOleg02.jpg"  class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Anet a Oleg</h4>
-					<h5>Svatba - Červen 2021</h5>
-					<p>Svatební fotografie</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		  
-			<div class="col-lg-4 col-md-6 portfolio-item filter-svatby">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Svatby/Large/AnetOleg03.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Svatby/Small/AnetOleg03.jpg"   class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Anet a Oleg</h4>
-					<h5>Svatba - Červen 2021</h5>
-					<p>Svatební fotografie</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		  
-			<div class="col-lg-4 col-md-6 portfolio-item filter-svatby">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Svatby/Large/AnetOleg04.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Svatby/Small/AnetOleg04.jpg"  class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Anet a Oleg</h4>
-					<h5>Svatba - Červen 2021</h5>
-					<p>Svatební fotografie</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		  
-			<div class="col-lg-4 col-md-6 portfolio-item filter-svatby">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Svatby/Large/AnetOleg05.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Svatby/Small/AnetOleg05.jpg"  class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Anet a Oleg</h4>
-					<h5>Svatba - Červen 2021</h5>
-					<p>Svatební fotografie</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		  
-			<div class="col-lg-4 col-md-6 portfolio-item filter-svatby">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Svatby/Large/AnetOleg06.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Svatby/Small/AnetOleg06.jpg"  class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Anet a Oleg</h4>
-					<p>Svatba 2021</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		  
-			<div class="col-lg-4 col-md-6 portfolio-item filter-svatby">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Svatby/Large/AnetOleg07.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Svatby/Small/AnetOleg07.jpg"  class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Anet a Oleg</h4>
-					<h5>Svatba - Červen 2021</h5>
-					<p>Svatební fotografie</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		  
-			<div class="col-lg-4 col-md-6 portfolio-item filter-svatby">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Svatby/Large/AnetOleg08.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Svatby/Small/AnetOleg08.jpg"  class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Anet a Oleg</h4>
-					<h5>Svatba - Červen 2021</h5>
-					<p>Svatební fotografie</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		  
-			<div class="col-lg-4 col-md-6 portfolio-item filter-svatby">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Svatby/Large/AnetOleg09.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Svatby/Small/AnetOleg09.jpg"  class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Anet a Oleg</h4>
-					<h5>Svatba - Červen 2021</h5>
-					<p>Svatební fotografie</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		  
-			<div class="col-lg-4 col-md-6 portfolio-item filter-svatby">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Svatby/Large/AnetOleg010.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Svatby/Small/AnetOleg010.jpg"  class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Anet a Oleg</h4>
-					<h5>Svatba - Červen 2021</h5>
-					<p>Svatební fotografie</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		  
-			<div class="col-lg-4 col-md-6 portfolio-item filter-svatby">
-				<div class="portfolio-wrap">
-				<a href="Assets/img/Portfolio/Svatby/Large/AnetOleg011.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-				<img class="lazy" src="Assets/img/Portfolio/Svatby/Small/AnetOleg011.jpg" class="img-fluid" alt="">
-				<div class="portfolio-info">
-					<h4>Anet a Oleg</h4>
-					<h5>Svatba - Červen 2021</h5>
-					<p>Svatební fotografie</p>
-					<div class="portfolio-links">
-					</div>
-				</div>
-				</a>
-				</div>
-			</div>
-		  
-		</div>
-	 </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-vyber">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Nahled/Large/Nahled08.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Nahled/Small/Nahled08.jpg" class="img-fluid"
+                                alt="">
+                            <div class="portfolio-info">
+                                <h4>4Filming Crew</h4>
+                                <h5>Promo fotografie</h5>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-vyber">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Nahled/Large/Nahled09.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Nahled/Small/Nahled09.jpg" class="img-fluid"
+                                alt="">
+                            <div class="portfolio-info">
+                                <h4>Dan</h4>
+                                <h5>Portrétové / Umělecké fotografie</h5>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-vyber">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Nahled/Large/Nahled010.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Nahled/Small/Nahled010.jpg" class="img-fluid"
+                                alt="">
+                            <div class="portfolio-info">
+                                <h4>Igor</h4>
+                                <h5>Portrétové / Umělecké fotografie</h5>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- ======= Grafika ======= -->
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-grafika">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Grafika/Large/Prihlasky2022.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Grafika/Small/Prihlasky2022.jpg"
+                                class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Tiskovina - Přihlášky</h4>
+                                <h5>ZAKÁZKA</h5>
+                                <p>Grafický návrh</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-grafika">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Grafika/Large/SocialTemplates.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Grafika/Small/SocialTemplates.jpg"
+                                class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Sada grafických šablon sociálních sítí</h4>
+                                <h5>ZAKÁZKA</h5>
+                                <p>Grafický návrh</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-grafika">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Grafika/Large/HappyBomb.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Grafika/Small/HappyBomb.jpg" class="img-fluid"
+                                alt="">
+                            <div class="portfolio-info">
+                                <h4>Videohra "Happy Bomb"</h4>
+                                <h5>Školní projekt</h5>
+                                <p>Grafický návrh</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-grafika">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Grafika/Large/Wedding-Flowers-01.mp4"
+                            data-gallery="portfolioGallery" class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Grafika/Small/Wedding-Flowers-01.jpg"
+                                class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Svatební úvod</h4>
+                                <h5>Video-šablona</h5>
+                                <p>Grafický návrh</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- ======= Logo ======= -->
+                <div class="col-lg-4 col-md-6 portfolio-item filter-logo">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Logo/Large/ReUseCentrumZabrusany.jpg"
+                            data-gallery="portfolioGallery" class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Logo/Small/ReUseCentrumZabrusany.jpg"
+                                class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Re-Use Centrum Zabrušany</h4>
+                                <h5>Zakázka</h5>
+                                <p>Logo Design</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-logo">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Logo/Large/KavarnaBambus.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Logo/Small/KavarnaBambus.jpg" class="img-fluid"
+                                alt="">
+                            <div class="portfolio-info">
+                                <h4>Kavárna Bambus</h4>
+                                <h5>Školní projekt</h5>
+                                <p>Logo Design</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- ======= Branding ======= -->
+
+                <!-- ======= Promo-Foto ======= -->
+                <div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Promo-Foto/Large/Neckyada01.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/Neckyada01.jpg"
+                                class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Neckyáda Zabrušany</h4>
+                                <h5>Ročníky 2019/2020/2021</h5>
+                                <p>Akce & Promo</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Promo-Foto/Large/Neckyada02.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/Neckyada02.jpg"
+                                class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Neckyáda Zabrušany</h4>
+                                <h5>Ročníky 2019/2020/2021</h5>
+                                <p>Akce & Promo</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Promo-Foto/Large/Neckyada03.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/Neckyada03.jpg"
+                                class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Neckyáda Zabrušany</h4>
+                                <h5>Ročníky 2019/2020/2021</h5>
+                                <p>Akce & Promo</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Promo-Foto/Large/Neckyada04.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/Neckyada04.jpg"
+                                class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Neckyáda Zabrušany</h4>
+                                <h5>Ročníky 2019/2020/2021</h5>
+                                <p>Akce & Promo</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Promo-Foto/Large/Neckyada05.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/Neckyada05.jpg"
+                                class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Neckyáda Zabrušany</h4>
+                                <h5>Ročníky 2019/2020/2021</h5>
+                                <p>Akce & Promo</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Promo-Foto/Large/Neckyada06.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/Neckyada06.jpg"
+                                class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Neckyáda Zabrušany</h4>
+                                <h5>Ročníky 2019/2020/2021</h5>
+                                <p>Akce & Promo</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Promo-Foto/Large/Neckyada07.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/Neckyada07.jpg"
+                                class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Neckyáda Zabrušany</h4>
+                                <h5>Ročníky 2019/2020/2021</h5>
+                                <p>Akce & Promo</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Promo-Foto/Large/Neckyada08.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/Neckyada08.jpg"
+                                class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Neckyáda Zabrušany</h4>
+                                <h5>Ročníky 2019/2020/2021</h5>
+                                <p>Akce & Promo</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Promo-Foto/Large/Neckyada09.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/Neckyada09.jpg"
+                                class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Neckyáda Zabrušany</h4>
+                                <h5>Ročníky 2019/2020/2021</h5>
+                                <p>Akce & Promo</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Promo-Foto/Large/Neckyada010.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/Neckyada010.jpg"
+                                class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Neckyáda Zabrušany</h4>
+                                <h5>Ročníky 2019/2020/2021</h5>
+                                <p>Akce & Promo</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Promo-Foto/Large/Neckyada011.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/Neckyada011.jpg"
+                                class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Neckyáda Zabrušany</h4>
+                                <h5>Ročníky 2019/2020/2021</h5>
+                                <p>Akce & Promo</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Promo-Foto/Large/Neckyada012.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/Neckyada012.jpg"
+                                class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Neckyáda Zabrušany</h4>
+                                <h5>Ročníky 2019/2020/2021</h5>
+                                <p>Akce & Promo</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Promo-Foto/Large/Neckyada013.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/Neckyada013.jpg"
+                                class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Neckyáda Zabrušany</h4>
+                                <h5>Ročníky 2019/2020/2021</h5>
+                                <p>Akce & Promo</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Promo-Foto/Large/Neckyada014.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/Neckyada014.jpg"
+                                class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Neckyáda Zabrušany</h4>
+                                <h5>Ročníky 2019/2020/2021</h5>
+                                <p>Akce & Promo</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Promo-Foto/Large/Neckyada015.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/Neckyada015.jpg"
+                                class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Neckyáda Zabrušany</h4>
+                                <h5>Ročníky 2019/2020/2021</h5>
+                                <p>Akce & Promo</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Promo-Foto/Large/Neckyada016.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/Neckyada016.jpg"
+                                class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Neckyáda Zabrušany</h4>
+                                <h5>Ročníky 2019/2020/2021</h5>
+                                <p>Akce & Promo</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Promo-Foto/Large/Neckyada017.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/Neckyada017.jpg"
+                                class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Neckyáda Zabrušany</h4>
+                                <h5>Ročníky 2019/2020/2021</h5>
+                                <p>Akce & Promo</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Promo-Foto/Large/Neckyada018.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/Neckyada018.jpg"
+                                class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Neckyáda Zabrušany</h4>
+                                <h5>Ročníky 2019/2020/2021</h5>
+                                <p>Akce & Promo</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Promo-Foto/Large/Neckyada019.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/Neckyada019.jpg"
+                                class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Neckyáda Zabrušany</h4>
+                                <h5>Ročníky 2019/2020/2021</h5>
+                                <p>Akce & Promo</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Promo-Foto/Large/4FilmingUjep01.jpg"
+                            data-gallery="portfolioGallery" class="portfolio-lightbox">
+                            <iimg class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/4FilmingUjep01.jpg"
+                                class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>4Filming Crew</h4>
+                                    <h5>CPTO Dokument</h5>
+                                    <p>Akce & Promo</p>
+                                    <div class="portfolio-links">
+                                    </div>
+                                </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Promo-Foto/Large/4FilmingUjep02.jpg"
+                            data-gallery="portfolioGallery" class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/4FilmingUjep02.jpg"
+                                class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>4Filming Crew</h4>
+                                <h5>CPTO Dokument</h5>
+                                <p>Akce & Promo</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Promo-Foto/Large/4FilmingUjep03.jpg"
+                            data-gallery="portfolioGallery" class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/4FilmingUjep03.jpg"
+                                class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>4Filming Crew</h4>
+                                <h5>CPTO Dokument</h5>
+                                <p>Akce & Promo</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Promo-Foto/Large/4FilmingUjep04.jpg"
+                            data-gallery="portfolioGallery" class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/4FilmingUjep04.jpg"
+                                class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>4Filming Crew</h4>
+                                <h5>CPTO Dokument</h5>
+                                <p>Akce & Promo</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Promo-Foto/Large/4FilmingUjep05.jpg"
+                            data-gallery="portfolioGallery" class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/4FilmingUjep05.jpg"
+                                class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>4Filming Crew</h4>
+                                <h5>CPTO Dokument</h5>
+                                <p>Akce & Promo</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Promo-Foto/Large/4FilmingUjep06.jpg"
+                            data-gallery="portfolioGallery" class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/4FilmingUjep06.jpg"
+                                class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>4Filming Crew</h4>
+                                <h5>CPTO Dokument</h5>
+                                <p>Akce & Promo</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Promo-Foto/Large/4FilmingUjep07.jpg"
+                            data-gallery="portfolioGallery" class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/4FilmingUjep07.jpg"
+                                class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>4Filming Crew</h4>
+                                <h5>CPTO Dokument</h5>
+                                <p>Akce & Promo</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-promofoto">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Promo-Foto/Large/4FilmingUjep08.jpg"
+                            data-gallery="portfolioGallery" class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Promo-Foto/Small/4FilmingUjep08.jpg"
+                                class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>4Filming Crew</h4>
+                                <h5>CPTO Dokument</h5>
+                                <p>Akce & Promo</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- ======= Potréty ======= -->
+                <div class="col-lg-4 col-md-6 portfolio-item filter-portety">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Potrety/Large/Michal01.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Potrety/Small/Michal01.jpg" class="img-fluid"
+                                alt="">
+                            <div class="portfolio-info">
+                                <h4>Michal</h4>
+                                <h5>Lokace - Teplice</h5>
+                                <p>Potrétová fotografie</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-portety">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Potrety/Large/Michal02.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Potrety/Small/Michal02.jpg" class="img-fluid"
+                                alt="">
+                            <div class="portfolio-info">
+                                <h4>Michal</h4>
+                                <h5>Lokace - Teplice</h5>
+                                <p>Potrétová fotografie</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-portety">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Potrety/Large/Igor01.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Potrety/Small/Igor01.jpg" class="img-fluid"
+                                alt="">
+                            <div class="portfolio-info">
+                                <h4>Igor</h4>
+                                <h5>Lokace - Praha</h5>
+                                <p>Potrétová fotografie</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-portety">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Potrety/Large/Igor05.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Potrety/Small/Igor05.jpg" class="img-fluid"
+                                alt="">
+                            <div class="portfolio-info">
+                                <h4>Igor</h4>
+                                <h5>Lokace - Praha</h5>
+                                <p>Potrétová fotografie</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-portety">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Potrety/Large/Kuba01.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Potrety/Small/Kuba01.jpg" class="img-fluid"
+                                alt="">
+                            <div class="portfolio-info">
+                                <h4>Kuba</h4>
+                                <h5>Lokace - Jiřetín</h5>
+                                <p>Potrétová fotografie</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-portety">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Potrety/Large/Dan01.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Potrety/Small/Dan01.jpg" class="img-fluid"
+                                alt="">
+                            <div class="portfolio-info">
+                                <h4>Dan</h4>
+                                <h5>Lokace - Teplice</h5>
+                                <p>Potrétová fotografie</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- ======= Svatby ======= -->
+                <div class="col-lg-4 col-md-6 portfolio-item filter-svatby">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Svatby/Large/NikolaTomas01.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Svatby/Small/NikolaTomas01.jpg"
+                                class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Nikola a Tomáš</h4>
+                                <h5>Svatba - Květen 2022</h5>
+                                <p>Svatební fotografie</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-svatby">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Svatby/Large/NikolaTomas02.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Svatby/Small/NikolaTomas02.jpg"
+                                class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Nikola a Tomáš</h4>
+                                <h5>Svatba - Květen 2022</h5>
+                                <p>Svatební fotografie</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-svatby">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Svatby/Large/NikolaTomas03.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Svatby/Small/NikolaTomas03.jpg"
+                                class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Nikola a Tomáš</h4>
+                                <h5>Svatba - Květen 2022</h5>
+                                <p>Svatební fotografie</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-svatby">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Svatby/Large/NikolaTomas04.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Svatby/Small/NikolaTomas04.jpg"
+                                class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Nikola a Tomáš</h4>
+                                <h5>Svatba - Květen 2022</h5>
+                                <p>Svatební fotografie</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-svatby">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Svatby/Large/NikolaTomas05.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Svatby/Small/NikolaTomas05.jpg"
+                                class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Nikola a Tomáš</h4>
+                                <h5>Svatba - Květen 2022</h5>
+                                <p>Svatební fotografie</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-svatby">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Svatby/Large/NikolaTomas06.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Svatby/Small/NikolaTomas06.jpg"
+                                class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Nikola a Tomáš</h4>
+                                <h5>Svatba - Květen 2022</h5>
+                                <p>Svatební fotografie</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-svatby">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Svatby/Large/AnetOleg01.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Svatby/Small/AnetOleg01.jpg" class="img-fluid"
+                                alt="">
+                            <div class="portfolio-info">
+                                <h4>Anet a Oleg</h4>
+                                <h5>Svatba - Červen 2021</h5>
+                                <p>Svatební fotografie</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-svatby">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Svatby/Large/AnetOleg02.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Svatby/Small/AnetOleg02.jpg" class="img-fluid"
+                                alt="">
+                            <div class="portfolio-info">
+                                <h4>Anet a Oleg</h4>
+                                <h5>Svatba - Červen 2021</h5>
+                                <p>Svatební fotografie</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-svatby">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Svatby/Large/AnetOleg03.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Svatby/Small/AnetOleg03.jpg" class="img-fluid"
+                                alt="">
+                            <div class="portfolio-info">
+                                <h4>Anet a Oleg</h4>
+                                <h5>Svatba - Červen 2021</h5>
+                                <p>Svatební fotografie</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-svatby">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Svatby/Large/AnetOleg04.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Svatby/Small/AnetOleg04.jpg" class="img-fluid"
+                                alt="">
+                            <div class="portfolio-info">
+                                <h4>Anet a Oleg</h4>
+                                <h5>Svatba - Červen 2021</h5>
+                                <p>Svatební fotografie</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-svatby">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Svatby/Large/AnetOleg05.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Svatby/Small/AnetOleg05.jpg" class="img-fluid"
+                                alt="">
+                            <div class="portfolio-info">
+                                <h4>Anet a Oleg</h4>
+                                <h5>Svatba - Červen 2021</h5>
+                                <p>Svatební fotografie</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-svatby">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Svatby/Large/AnetOleg06.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Svatby/Small/AnetOleg06.jpg" class="img-fluid"
+                                alt="">
+                            <div class="portfolio-info">
+                                <h4>Anet a Oleg</h4>
+                                <p>Svatba 2021</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-svatby">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Svatby/Large/AnetOleg07.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Svatby/Small/AnetOleg07.jpg" class="img-fluid"
+                                alt="">
+                            <div class="portfolio-info">
+                                <h4>Anet a Oleg</h4>
+                                <h5>Svatba - Červen 2021</h5>
+                                <p>Svatební fotografie</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-svatby">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Svatby/Large/AnetOleg08.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Svatby/Small/AnetOleg08.jpg" class="img-fluid"
+                                alt="">
+                            <div class="portfolio-info">
+                                <h4>Anet a Oleg</h4>
+                                <h5>Svatba - Červen 2021</h5>
+                                <p>Svatební fotografie</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-svatby">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Svatby/Large/AnetOleg09.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Svatby/Small/AnetOleg09.jpg" class="img-fluid"
+                                alt="">
+                            <div class="portfolio-info">
+                                <h4>Anet a Oleg</h4>
+                                <h5>Svatba - Červen 2021</h5>
+                                <p>Svatební fotografie</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-svatby">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Svatby/Large/AnetOleg010.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Svatby/Small/AnetOleg010.jpg" class="img-fluid"
+                                alt="">
+                            <div class="portfolio-info">
+                                <h4>Anet a Oleg</h4>
+                                <h5>Svatba - Červen 2021</h5>
+                                <p>Svatební fotografie</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-svatby">
+                    <div class="portfolio-wrap">
+                        <a href="Assets/img/Portfolio/Svatby/Large/AnetOleg011.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox">
+                            <img class="lazy" src="Assets/img/Portfolio/Svatby/Small/AnetOleg011.jpg" class="img-fluid"
+                                alt="">
+                            <div class="portfolio-info">
+                                <h4>Anet a Oleg</h4>
+                                <h5>Svatba - Červen 2021</h5>
+                                <p>Svatební fotografie</p>
+                                <div class="portfolio-links">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </section>
-	
-	<!-- Konec Portfólio sekce -->
-	
-	<!-- ======= 3D Modely ======= -->
+
+    <!-- Konec Portfólio sekce -->
+
+    <!-- ======= 3D Modely ======= -->
     <section id="prohlidka" class="prohlidka">
-      <div class="container">
-        <div  class="section-title">
-          <h2>Prohlídka</h2>
-          <p>3D Modely</p>
-		  <h3>Marmoset Viewer</h3>
+        <div class="container">
+            <div class="section-title">
+                <h2>Prohlídka</h2>
+                <p>3D Modely</p>
+                <h3>Marmoset Viewer</h3>
+            </div>
+
+            <div class="row">
+                <iframe src="Assets/Marmoset/StylizedSword/StylizedSword.html" name="marmosetViewer" allowfullscreen
+                    mozallowfullscreen="true" webkitallowfullscreen="true" height="551" width="100%" frameborder="0"
+                    onmousewheel="" scrolling="no"></iframe>
+                <span style="letter-spacing:-10px; text-align: center;">
+                    <a href="Assets/Marmoset/StylizedSword/StylizedSword.html" target="marmosetViewer"><img class="lazy"
+                            src="Assets/Marmoset/StylizedSword/Preview.png" alt width="10%"></a>
+                    <a href="Assets/Marmoset/GhibliLamp/GLamp.html" target="marmosetViewer"><img class="lazy"
+                            src="Assets/Marmoset/GhibliLamp/Preview.png" alt width="10%"></a>
+                    <a href="Assets/Marmoset/VikingFeast/VikingFeast.html" target="marmosetViewer"><img class="lazy"
+                            src="Assets/Marmoset/VikingFeast/Preview.png" alt width="10%"></a>
+                </span>
+            </div>
+
         </div>
-		
-		<div class="row">
-		<iframe src="Assets/Marmoset/StylizedSword/StylizedSword.html" name="marmosetViewer" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" height="551" width="100%" frameborder="0" onmousewheel="" scrolling="no" ></iframe>
-		<span style="letter-spacing:-10px;">
-		<a href="Assets/Marmoset/StylizedSword/StylizedSword.html" target="marmosetViewer"><img class="lazy" src="Assets/Marmoset/StylizedSword/Preview.png" alt width="10%"></a>
-		<a href="Assets/Marmoset/GhibliLamp/GLamp.html" target="marmosetViewer"><img class="lazy" src="Assets/Marmoset/GhibliLamp/Preview.png" alt width="10%"></a>
-		<a href="Assets/Marmoset/VikingFeast/VikingFeast.html" target="marmosetViewer"><img class="lazy" src="Assets/Marmoset/VikingFeast/Preview.png" alt width="10%"></a>
-		</span>
-		</div>
-		
-		
-      </div>
     </section>
-	<!-- Konec 3D Modely sekce -->
-	
-	<!-- ======= 4Filming ======= -->
-	<section id="video" class="ExterniVideo">
-		<div class="container">
-		 <div class="section-title">
-          <h2>Externí služba</h2>
-          <p>Video na míru</p>
-		  <h3>Od plesu až po reklamu</h3>
+    <!-- Konec 3D Modely sekce -->
+
+    <!-- ======= 4Filming ======= -->
+    <section id="video" class="ExterniVideo">
+        <div class="container">
+            <div class="section-title">
+                <h2>Externí služba</h2>
+                <p>Video na míru</p>
+                <h3>Od plesu až po reklamu</h3>
+            </div>
+
+            <div class="row">
+                <div class="column left">
+                    <div class="VideoInfo">
+                        <p>Potřebujete natočit <b>ples</b>, <b>svatbu</b> nebo <b>promo</b> pro vaše podnikání?
+                            <b>Daniel Holomek</b> a jeho tým <b>4Filming</b> se o to dokáží hravě postarat. S Danem jsem
+                            již několik akcí absolvoval a&nbspjeho <b>kreativita</b> a <b>preciznost</b> je vždy na
+                            místě. Video-produkci se věnuje už víc jak <b>10 let</b> a&nbspza tu dobu jej oslovila řada
+                            menších či větších klientů za účelem <b>firemních videí</b>. Posledním velkým projektem byl
+                            dokument pro <b>Univerzitu Jana Evangelisty Purkyně v&nbspÚstí nad Labem</b>. <br>
+                            <br />Máte-li zájem o <b>kvalitně zpracované video</b>, určitě se podívejte na webové
+                            stránky týmu 4Filming nebo přímo kontaktujte Daniela Holomka.
+                        </p>
+                        <a class="VideoInfo-btn align-middle" href="https://www.4filming.cz/" target="_blank"><i
+                                class="bi bi-globe"></i> NAVŠTÍVIT</a><a class="VideoInfo-btn  align-middle"
+                            href="mailto: info@4filming.cz" target="_blank"><i class="fa fa-address-card"></i>
+                            KONTAKTOVAT</a><a class="VideoInfo-btn  align-middle"
+                            href="https://www.youtube.com/user/Supercom5000" target="_blank"><i
+                                class="bi bi-youtube"></i> YOUTUBE</a>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="overlaybox">
+                    </div>
+                    <div class="videobox">
+                        <video class="lazy" autoplay loop muted playinline>
+                            <source src="Assets/img/Video/4FilmingVideoCropped.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
         </div>
-		
-		<div class="row">
-			<div class="column left">
-			<div class="VideoInfo">
-			<p>Potřebujete natočit <b>ples</b>, <b>svatbu</b> nebo <b>promo</b> pro vaše podnikání? <b>Daniel Holomek</b> a jeho tým <b>4Filming</b> se o to dokáží hravě postarat. S Danem jsem již několik akcí absolvoval a&nbspjeho <b>kreativita</b> a <b>preciznost</b> je vždy na místě. Video-produkci se věnuje už víc jak <b>10 let</b> a&nbspza tu dobu jej oslovila řada menších či větších klientů za účelem <b>firemních videí</b>. Posledním velkým projektem byl dokument pro <b>Univerzitu Jana Evangelisty Purkyně v&nbspÚstí nad Labem</b>. <br>
-			<br />Máte-li zájem o <b>kvalitně zpracované video</b>, určitě se podívejte na webové stránky týmu 4Filming nebo přímo kontaktujte Daniela Holomka.</p>
-			<a class="VideoInfo-btn align-middle" href="https://www.4filming.cz/" target="_blank"><i class="bi bi-globe"></i> NAVŠTÍVIT</a><a class="VideoInfo-btn  align-middle" href="mailto: info@4filming.cz" target="_blank"><i class="fa fa-address-card"></i> KONTAKTOVAT</a><a class="VideoInfo-btn  align-middle" href="https://www.youtube.com/user/Supercom5000" target="_blank"><i class="bi bi-youtube"></i> YOUTUBE</a>
-			</div>
-			</div>
-			<div class="column right">
-			<div class="overlaybox" >
-			</div>
-			<div class="videobox" >
-			<video class="lazy" autoplay loop muted playinline>
-				<source src="Assets/img/Video/4FilmingVideoCropped.mp4" type="video/mp4">
-			</video>
-			</div>
-			</div>
-		</div>
-		</div>
     </section>
-	<!-- Konec 4Filming sekce -->
-	
-	<!-- ======= Kontakt ======= -->
+    <!-- Konec 4Filming sekce -->
+
+    <!-- ======= Kontakt ======= -->
     <section id="kontakt" class="contact">
-	 <div class="custom-shape-divider-top-1629991318">
-		<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
-		</svg>
-	</div>
-	 <div class="info">
-	 <div class="container">
-		
-		<div class="row justify-content-center"> 
-			<div class="col-lg-5 col-md-7 col-sm-9">
-				<div class="name">
-					<h3>Jan <strong>Kejř</strong></h3>
-				</div>
-			</div>
-		</div>
-	 
-        <div class="row justify-content-center"> 
-		  <div class="col-lg-3 col-md-5 col-7">
-		   <div class="information">
-              <div class="phone">
-                <i class="bi bi-telephone-fill"></i>
-                <p><strong>(+420) 722 632 790</strong></p>
-              </div>
-		   </div>
-           </div>
-		   <div class="col-lg-3 col-md-5 col-7">
-		   <div class="information">
-              <div class="email">
-                <i class="bi bi-envelope-fill"></i>
-                <p><a href="mailto: info@jankejr.cz" target="_blank"></i> info@jankejr.cz</a></p>
-              </div>
-		   </div>
-		  </div>
-		   <div class="col-lg-3 col-md-5 col-7">
-		   <div class="information">
-              <div class="ic">
-                <h4>IČ</h4>
-                <p>10676678</p>
-              </div>
-			</div>
-		  </div>
-      </div>
-	  </div>
-	  </div>
+        <div class="custom-shape-divider-top-1629991318">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+        <div class="info">
+            <div class="container">
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-5 col-md-7 col-sm-9">
+                        <div class="name">
+                            <h3>Jan <strong>Kejř</strong></h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-3 col-md-5 col-7">
+                        <div class="information">
+                            <div class="phone">
+                                <i class="bi bi-telephone-fill"></i>
+                                <p><strong>(+420) 722 632 790</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-5 col-7">
+                        <div class="information">
+                            <div class="email">
+                                <i class="bi bi-envelope-fill"></i>
+                                <p><a href="mailto: info@jankejr.cz" target="_blank"></i> info@jankejr.cz</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-5 col-7">
+                        <div class="information">
+                            <div class="ic">
+                                <h4>IČ</h4>
+                                <p>10676678</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-	<!-- Konec Kontakt sekce -->
+    <!-- Konec Kontakt sekce -->
 
-	<!-- ======= Patička ======= -->
-	<footer id="footer">
-		<div class="container">
-		<div class="social-links">
-			<a href="https://www.facebook.com/jankejr.cz" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a>
-			<a href="https://www.instagram.com/_jankejr_/" target="_blank" class="instagram"><i class="bi bi-instagram"></i></a>
-			<a href="https://www.linkedin.com/in/jan-kejr/" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
-			<a href="https://www.artstation.com/kejrak" target="_blank" class="artstation"><i class="fab fa-artstation"></i></a>
-			<a href="https://www.behance.net/jankejr" target="_blank" class="behance"><i class="fab fa-behance"></i></a>
-		</div>
-		<div class="copyright">
-		<p>VŠECHEN VIZUÁLNÍ OBSAH JE POD AUTORSKÝM PRÁVEM. JE ZAKÁZÁNO JEJ JAKKOLIV POUŽÍT ČI REPRODUKOVAT.</P>
-		 &copy; <span>Jan Kejř 2022</span>
-		</div>
-		</div>
-	</footer>
-	<!-- Konec Patička sekce -->
+    <!-- ======= Patička ======= -->
+    <footer id="footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="https://www.facebook.com/jankejr.cz" target="_blank" class="facebook"><i
+                        class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/_jankejr_/" target="_blank" class="instagram"><i
+                        class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/jan-kejr/" target="_blank" class="linkedin"><i
+                        class="bi bi-linkedin"></i></a>
+                <a href="https://www.artstation.com/kejrak" target="_blank" class="artstation"><i
+                        class="fab fa-artstation"></i></a>
+                <a href="https://www.behance.net/jankejr" target="_blank" class="behance"><i
+                        class="fab fa-behance"></i></a>
+            </div>
+            <div class="copyright">
+                <p>VŠECHEN VIZUÁLNÍ OBSAH JE POD AUTORSKÝM PRÁVEM. JE ZAKÁZÁNO JEJ JAKKOLIV POUŽÍT ČI REPRODUKOVAT.</P>
+                &copy; <span>Jan Kejř 2024</span>
+            </div>
+        </div>
+    </footer>
+    <!-- Konec Patička sekce -->
 
-	<!-- Preloader -->
+    <!-- Preloader -->
 
-	<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>	
-	
-	
-		<!-- Vendor JS Files -->
-		<script src="Assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-		<script src="Assets/vendor/Yall/yall.min.js"></script>
-		<script src="Assets/vendor/glightbox/js/glightbox.min.js"></script>
-		<script src="Assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-		<script src="Assets/vendor/swiper/swiper-bundle.min.js"></script>
-		<script src="Assets/vendor/waypoints/noframework.waypoints.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-		
-		<script src="Assets/vendor/aos/aos.js"></script>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
 
-		
-		<script src="Assets/js/main.js"></script>
-		
-	</body>
-	
+
+    <!-- Vendor JS Files -->
+    <script src="Assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="Assets/vendor/Yall/yall.min.js"></script>
+    <script src="Assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="Assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="Assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="Assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="Assets/vendor/aos/aos.js"></script>
+    <script src="Assets/js/main.js"></script>
+
+</body>
+
 </html>
-
