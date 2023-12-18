@@ -14,7 +14,7 @@
     --bs-white: #fff;
     --bs-gray: #6c757d;
     --bs-gray-dark: #343a40;
-    a --bs-primary: #ffc800;
+    --bs-primary: #ffc800;
     --bs-secondary: #6c757d;
     --bs-success: #198754;
     --bs-info: #0dcaf0;
@@ -813,7 +813,6 @@ section {
         flex-direction: column;
     }
 
-
     #domu h1 {
         font-size: 80px;
         line-height: 36px;
@@ -835,6 +834,7 @@ section {
     #domu .social-links {
         margin-top: 50px;
         margin-left: 35px;
+        display: none;
     }
 
     #domu .social-links a {
@@ -849,16 +849,20 @@ section {
 
 @media (max-width: 370px) {
 
+    #domu .social-links {
+        margin-top: 50px;
+        margin-left: 35px;
+        display: none;
+    }
+
     #domu .social-links a {
         font-size: 25px;
-        display: inline-block;
         color: #F6F6F6;
         line-height: 1;
         margin-right: 25px;
         transition: 0.3s;
     }
 }
-
 
 /*--------------------------------------------------------------
 # About Section
