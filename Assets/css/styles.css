@@ -813,7 +813,6 @@ section {
         flex-direction: column;
     }
 
-
     #domu h1 {
         font-size: 80px;
         line-height: 36px;
@@ -864,7 +863,6 @@ section {
         transition: 0.3s;
     }
 }
-
 
 /*--------------------------------------------------------------
 # About Section
