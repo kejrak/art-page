@@ -22,4 +22,4 @@ jobs:
         server:  ${{ secrets.FTP_SECRET_SERVER}}
         username: ${{ secrets.FTP_SECRET_USERNAME}}
         password: ${{ secrets.FTP_SECRET_PASSWORD }}
-        local-dir: ./www/
+        server-dir: ./www/
