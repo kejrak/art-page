@@ -28,14 +28,14 @@ function closeMenu() {
 
 
     /**
-    * Hide Prohlidka
+    * Hide preview
      */
 
     const element = document.getElementById("hideLi");
     const hidden = element.getAttribute("hidden");
     const { gsap, imagesLoaded } = window;
 
-    function hideProhlidka(x) {
+    function hidepreview(x) {
         if (x.matches) { // If media query matches
             element.setAttribute("hidden", "hidden");
         } else {
@@ -44,8 +44,8 @@ function closeMenu() {
     }
 
     const x = window.matchMedia("(max-width: 768px)")
-    hideProhlidka(x) // Call listener function at run time
-    x.addListener(hideProhlidka)
+    hidepreview(x) // Call listener function at run time
+    x.addListener(hidepreview)
 
 
     /**
