@@ -1,3 +1,8 @@
+/**
+  * Date
+*/
+
+document.getElementById("year").innerHTML = new Date().getFullYear();
 
 /**
   * Hamburger menu
@@ -21,11 +26,8 @@ function closeMenu() {
   navMenu.classList.remove("active");
 }
 
-
-
 (function () {
   "use strict";
-
 
   /**
   * Hide Preview
@@ -264,9 +266,6 @@ function closeMenu() {
   if ($('.slideshow').length > 1) {
     $(window).on('scroll', homeSlideshowParallax);
   }
-
-
-
 
   /**
    * Easy selector helper function
