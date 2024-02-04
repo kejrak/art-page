@@ -796,7 +796,7 @@ section {
 @media (max-width: 992px) {
   #home {
     text-align: center;
-    background: url("../img/Backgrounds/Background-Phone.jpg") no-repeat;
+    background-color: black;
     background-size: cover;
     position: relative;
   }
